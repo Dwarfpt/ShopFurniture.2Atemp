@@ -196,7 +196,6 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="PackFurni\Scss\style.scss" />
     <Content Include="Views\Shared\_Header.cshtml" />
-    <Content Include="Views\Shared\_Body.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\Blog.cshtml" />
