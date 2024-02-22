@@ -19,5 +19,34 @@ namespace ShopFurniture_2_Web.Controllers
             return View();
         }
 
+        public ActionResult Blog()
+        {
+            return View();
+        }
+
+        public ActionResult Cart()
+        {
+            return View();
+        }
+        public ActionResult Checkout()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult Services()
+        {
+            return View();
+        }
+        public ActionResult Shop()
+        {
+            return View();
+        }
+        public ActionResult ThankYou()
+        {
+            return View();
+        }
     }
 }
