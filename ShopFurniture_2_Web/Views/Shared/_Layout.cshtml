@@ -1,12 +1,4 @@
-﻿<!-- /*
-* Bootstrap 5
-* Template Name: Furni
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-
-@using System.Web.Optimization
+﻿@using System.Web.Optimization
 
 <!doctype html>
 <html lang="en">
@@ -15,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="~/PackFurni/images/favicon.png">
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -63,16 +55,18 @@
     <script src="~/PackFurni/js/custom.js"></script>
     -->
 
-
-
-    @Scripts.Render("~/bundles/tiny-slider/js")
-    @Scripts.Render("~/bundles/custom/js")
-    
+    <script src="~/PackFurni/js/bootstrap.bundle.min.js"></script>
+    <script src="~/PackFurni/js/tiny-slider.js"></script>
+    <script src="~/PackFurni/js/custom.js"></script>
+    <!--
+    Scripts.Render("~/bundles/tiny-slider/js")
+    Scripts.Render("~/bundles/custom/js")
+    -->
     @*@Scripts.Render("~/bundles/bootstrap_bundle/js")*@
     <!-- Handler for local scripts -->
-
-    @RenderSection("scripts", required: false)
-
+    <!--
+    RenderSection("scripts", required: false)
+    -->
 
 </body>
 
