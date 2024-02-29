@@ -18,7 +18,7 @@ namespace ShopFurniture_2_Web
            AreaRegistration.RegisterAllAreas();
            RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+           BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
