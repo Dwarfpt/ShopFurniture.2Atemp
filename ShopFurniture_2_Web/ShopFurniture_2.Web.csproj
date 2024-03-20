@@ -172,9 +172,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -222,6 +224,7 @@
     <Content Include="Views\Home\ThankYou.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -231,8 +234,21 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="App_Start\DDD\" />
+    <Folder Include="App_Start\Аааа\" />
     <Folder Include="Views\BundleConfig\" />
+    <Folder Include="Views\Default\" />
+    <Folder Include="Views\LoginData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopFurniture.2.BusinessLogic\ShopFurniture.2.BusinessLogic.csproj">
+      <Project>{516feb56-4bec-49e7-a06d-b81d80b330e5}</Project>
+      <Name>ShopFurniture.2.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopFurniture.2.Domain\ShopFurniture.2.Domain.csproj">
+      <Project>{7fe1de1b-efba-40fb-b160-ca6053ffb4fa}</Project>
+      <Name>ShopFurniture.2.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
