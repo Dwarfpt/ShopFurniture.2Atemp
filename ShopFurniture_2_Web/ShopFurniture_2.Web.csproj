@@ -242,8 +242,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Start\DDD\" />
-    <Folder Include="App_Start\Аааа\" />
     <Folder Include="Views\BundleConfig\" />
     <Folder Include="Views\Default\" />
     <Folder Include="Views\LoginData\" />
